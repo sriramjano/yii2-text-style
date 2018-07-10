@@ -1,0 +1,29 @@
+{
+    "name": "sriramjano/yii2-text-style",
+    "description": "Create Style text in Yii.",
+    "keywords": [
+        "yii2",
+        "extension",
+        "text",
+        "style",
+        "utf8",
+        "html"
+    ],
+    "homepage": "https://github.com/sriramjano/yii2-text-style",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sriram Panneerselvam",
+            "email": "sriramjano@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sriramjano\\style\\": ""
+        }
+    }
+}
