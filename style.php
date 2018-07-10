@@ -2,8 +2,8 @@
    namespace sriramjano\style;
 
    class Style {
-      public static function text() {
-         return 'Hello World, Sriram!';
+      public static function text($text) {
+         return '<h1>'.$text.'</h1>';
       }
    }
 ?>
